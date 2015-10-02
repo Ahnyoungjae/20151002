@@ -94,10 +94,10 @@ word counting example
     i am a boy
     you are a girl
 
-    hdfs dfs -mkdir /user   # user 디렉토리를 만듬 # exist directory 인 경우는 패스하면 됨
-    hdfs dfs -mkdir /user/hadoop   # hadoop 디렉토리를 만듬 # exist directory 인 경우는 패스하면 됨
-    hdfs dfs -mkdir /user/hadoop/input   # input 디렉토리를 만듬
-    hdfs dfs -put test.txt /user/hadoop/input   # test.txt 파일을 input 디렉토리에 넣음
+    hdfs dfs -mkdir /user   
+    hdfs dfs -mkdir /user/hadoop  
+    hdfs dfs -mkdir /user/hadoop/input  
+    hdfs dfs -put test.txt /user/hadoop/input 
 
     # Word Count java 코드 작성( github 에서 WordCount.java 파일 다운로드)
     wget https://raw.githubusercontent.com/kowonsik/CCL/master/WordCount.java
